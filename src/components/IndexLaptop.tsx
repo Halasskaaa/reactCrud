@@ -15,3 +15,16 @@ export function IndexLaptop(props: IndexLaptopProps) {
         )</p>
   </>
 }
+
+        // <div className="row">
+        //   {laptopok.map((laptop, index) => (
+        //     <div key={index} className="col-sm-4">
+        //       <IndexLaptop
+        //         laptopBrand={laptop.brand}
+        //         laptopModel={laptop.model}
+        //         laptopPrice={laptop.price}
+        //         laptopInStock={laptop.inStock}
+        //      />
+        //     </div>
+        //   ))}
+        // </div>
