@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import { laptops } from './data/laptopok';
 import { ListingLaptop } from './components/listingLaptop';
@@ -11,8 +11,17 @@ function App() {
   const [menu, setMenu] = useState("index");
   const [laptopok, setLaptopok] = useState(laptops);
 
+  // const [item, setItem] = useState<Laptop[]>([])
+
+  // useEffect(() => {
+  //   fetch("./")
+  //   .then(response => response.json)
+  //   .then(data => setItem(data))
+  // }, [])
   return (
     <>
+
+    
       <div className='container mt-4'>
 
         <Fejlec setMenu={setMenu} />
