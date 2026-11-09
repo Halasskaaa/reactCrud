@@ -20,8 +20,6 @@ function App() {
   // }, [])
   return (
     <>
-
-    
       <div className='container mt-4'>
 
         <Fejlec setMenu={setMenu} />

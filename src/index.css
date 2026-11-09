@@ -125,10 +125,12 @@ nav button:active {
     font-family: Arial, sans-serif;
     width: 100%;
     border-radius: 5px;
-    padding: 3%;
-    background-color: #64B6AC;
+    padding: 10%;
+    background-color: #ececec;
     justify-self: center;
     color: #212529;
+    border-color: #212529;
+    border-radius: 10%;
 }
 
 .card:hover {
