@@ -3,6 +3,8 @@ import './App.css'
 import { laptops } from './data/laptopok';
 import {ListingLaptop} from './components/listingLaptop';
 import {AdminLaptop} from './components/AdminLaptop';
+import Lablec from './components/Footer';
+import Fejlec from './components/Header';
 
 function App() {
   const [menu, setMenu] = useState("index");
@@ -10,10 +12,11 @@ function App() {
 
   return (
     <>
-      <button onClick={() => setMenu("index")}>Kezdőlap</button> <br/>
-      <button onClick={() => setMenu("admin")}>Admin</button> <br/>
-      <button onClick={() => setMenu("moderator")}>Moderátor</button> <br/>
 
+    <div className='container mt-4'>
+
+      <Fejlec/>
+      
       <main>
         {menu === "index" && (
           <div className="row">
@@ -39,6 +42,10 @@ function App() {
           </div>
         )}
       </main>
+
+      <Lablec/>
+    </div>
+      
 
     </>
   )
