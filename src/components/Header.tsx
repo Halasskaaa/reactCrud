@@ -19,7 +19,7 @@ export default function Fejlec(props: FejlecProps) {
             <nav className="d-flex justify-content-center gap-2 my-4">
                 <button onClick={() => props.setMenu("index")}>Kezdőlap</button>
                 <button onClick={() => props.setMenu("admin")}>Admin</button>
-                <button onClick={() => props.setMenu("moerator")}>Moderátor</button>
+                <button onClick={() => props.setMenu("moderator")}>Moderátor</button>
             </nav>
         </>
     );

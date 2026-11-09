@@ -3,7 +3,7 @@ export default function Lablec() {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-sm-12 kartya mb-3">
-                    <p className="text-center">
+                    <p style={{ textAlign: 'center' }}>
                         <b>Az oldalt készítette: </b>
                         <i>Phan Thi Linh Tra 13.E</i>
                     </p>
